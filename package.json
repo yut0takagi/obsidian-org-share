@@ -1,0 +1,42 @@
+{
+  "name": "obsidian-org-share",
+  "version": "0.1.0",
+  "description": "Share Obsidian notes to private CF Access-gated URLs with org-domain, allowlist, or public audience modes. Companion to obsidian-org-share-worker.",
+  "license": "MIT",
+  "author": "Yuto Takagi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yut0takagi/obsidian-org-share.git"
+  },
+  "homepage": "https://github.com/yut0takagi/obsidian-org-share#readme",
+  "bugs": "https://github.com/yut0takagi/obsidian-org-share/issues",
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "cloudflare",
+    "cloudflare-access",
+    "share",
+    "publish"
+  ],
+  "private": false,
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "esbuild": "^0.20.0",
+    "obsidian": "latest",
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-footnote": "^4.0.0",
+    "markdown-it-task-lists": "^2.1.1",
+    "markdown-it-anchor": "^9.0.1",
+    "@types/markdown-it": "^14.0.0"
+  }
+}

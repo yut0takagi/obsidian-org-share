@@ -1,0 +1,10 @@
+{
+  "id": "org-share",
+  "name": "Org Share",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Share notes to a private CF Access-gated URL with org-domain, allowlist, or public audience.",
+  "author": "Yuto Takagi",
+  "authorUrl": "https://github.com/yut0takagi",
+  "isDesktopOnly": true
+}

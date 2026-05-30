@@ -1,0 +1,20 @@
+/* org-share plugin styles */
+.org-share-modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.org-share-modal-buttons button {
+  cursor: pointer;
+}
+.org-share-url-row {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.org-share-url-row a {
+  word-break: break-all;
+}
