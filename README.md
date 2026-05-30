@@ -9,7 +9,7 @@ Share notes from your Obsidian vault to a Cloudflare Access-gated URL with three
    - Worker URL (e.g. `https://obsidian-org-share-worker.<sub>.workers.dev`)
    - API Token (the secret you set via `wrangler secret put API_TOKEN`)
    - Your email
-   - Org domain (default: `cyberagent.co.jp`)
+   - Org domain (e.g. `example.com` — the email domain your org uses with Google Workspace / CF Access)
 3. Open any note → Command palette → **Share this note**.
 
 ## Commands
@@ -30,7 +30,7 @@ Share notes from your Obsidian vault to a Cloudflare Access-gated URL with three
 
 ## Status
 
-P1 MVP — personal BYO use only. Design: `開発計画/superpowers/specs/2026-05-30-org-share-plugin-design.md`. Plan: `開発計画/superpowers/plans/2026-05-30-org-share-plugin.md`.
+P1 MVP — personal BYO use only.
 
 ## License
 
